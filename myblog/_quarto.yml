@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  title: "Callum Edwards"
+  site-url: https://www.callumre.com
+  description: "Callum Edwards Blog"
+  margin-header: subscribe.html
+  # foreground: success
+  # background: light
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - about.qmd 
+    right:
+      - icon: rss
+        href: index.xml
+      - icon: github
+        href: https://github.com/CallumREdwards
+      - icon: twitter
+        href: https://twitter.com/CallumE35268498
+format:
+  html:
+    theme: lux
+    css: styles.css
+
+# Possible themes
+# cosmo
+# litera
+# lumen
+# lux (!)
+# materia
+# minty
+# morph
+# pulse
+# quartz
+# sandstone
+# simplex
+# sketchy
+# slate
+# solar
+# spacelab
+# superhero
+# united
+# vapor
+# yeti
+# zephyr
