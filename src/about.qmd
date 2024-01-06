@@ -19,4 +19,3 @@ I moved from Cambridge to Camden, London in 2021 after having graduated from Tri
 My technical interests currently lie in Machine Learning, Distributed System Design, Data Engineering, Functional Programming Languages and Mathematics. I decided to create this blog to document and share any new projects/learnings in these areas.
 
 Please reach out if you have any suggestions or comments!
-My email is __*edwards.callumr@gmail.com*__.
