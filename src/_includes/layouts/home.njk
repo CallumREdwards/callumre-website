@@ -3,7 +3,14 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
-  {{ content | safe }}
+  <div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; padding-right: 20px;">
+      {{ content | safe }}
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <img src="/images/social-share.jpg" style="max-width: 80%; height: auto;" />
+    </div>
+  </div>
 {% endset %}
 
 {# Post list content #}
